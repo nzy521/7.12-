@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //拼接
+        // var obj1={name:'zhangsan'};
+        // var obj2={age:'18'};
+        // var obj3={say:function(){
+        //     console.log('说话');
+        // }}
+        // console.log(Object.assign(obj1,obj2,obj3));
+        // console.log(obj1,obj2);
+
+
+        //Object.is(NaN,NaN);
+
+
+        //确定一个对象是否在另一个对象的原型链里面
+        // function a(){
+        // }
+        // var b = new a();
+        // console.log(a.prototype.isPrototypeOf(b));
+
+
+        // var obj = new Object();
+        // Object.defineProperty(obj, 'name', {
+        //     configurable: false,
+        //     writable: true,
+        //     enumerable: true,
+        //     value: '张三'
+        // })
+        // console.log(obj.name)
+
+
+        // var obj = new Object();
+        // Object.defineProperties(obj, {
+        //     name: {
+        //         value: '张三',
+        //         configurable: false,
+        //         writable: true,
+        //         enumerable: false,
+        //     },
+        //     age: {
+        //         value: 18,
+        //         configurable: true
+        //     }
+        // })
+        // console.log(obj.name, obj.age);
+
+
+
+        // var obj = {
+        //     name: '小米',
+        //     age: 18,
+        //     say: function () {
+        //         console.log('你好');
+        //     }
+        // }
+        // for (var i in obj) {
+        //     console.log(obj[i]);
+        // }
+
+
+        // var x=100;
+        // var y=Math.tan(x);
+        // var y=Math.sqrt(x);
+
+        // console.log(y);
+
+
+
+        // var arr = [23, 4, 651, 461, 1231, 411];
+        // var maxArr = Math.max(...arr);
+        // var minArr = Math.min(...arr);
+        // console.log(maxArr);
+        // console.log(minArr);
+
+
+
+
+        // var str="hello world";
+        // var a= '   aa   bb   '
+        // var n =str.charAt(4);    //第四个是哪个字母
+        // var n =str.charCodeAt(2);      //转换acscll
+        // var n=String.fromCharCode(98); //数字转字母
+        // var n=str.indexOf('a'); 
+        // var n=str.indexOf('o'); //位置
+        // var n=str.lastIndexOf('w'); //倒叙找位置
+        // var n=str.replace('o','a');  //把o换成a
+        // var n=str.slice(2,3);//截取第2个
+        // var n=str.substr(3,6);//截取字符串 从第三个截取 截取6个
+        // console.log(str.split('o'));  //从o分割开来
+        // var n=str.toLocaleLowerCase();//转化为小写
+        // var n=str.toLocaleUpperCase();//转化为大写
+        //console.log(a);//去除空格
+        //var n=str.concat('a','b','c');//连接字符串
+        //var n=JSON.parse('asasa');//????????
+        // console.log(n);
+
+
+
+        //var n=[1,2,3];
+        // n.push(4);//末尾追加元素
+        //n.unshift(4);//开头追加元素
+        //n.pop();//删除末尾元素
+        //n.shift();//删除第一个元素
+        //n.splice(0,2,3);//从0开始删除2个追加数字3
+        //n.join("+");//用/将数组隔开 不改变原数组的值
+        //n.slice(1,1);//截取数组 不改变数组的值 返回值是截取到的数组
+        //console.log(n.indexOf(2));//查找数字2在数组中的位置
+        //console.log(n);
+
+
+
+        // var arr=[1,2,5,6];
+        // arr.forEach(function(value,index){
+        //     console.log(value,index)
+        // })//遍历数组 第一个参数是数组值 第二个参数是数组的下标
+
+
+        // var arr = [1,101];
+        // var newArr = arr.filter(function (value, index) {
+        //     return value > 100;       
+        // })
+        // console.log(newArr); //筛选数组中大于100的值
+
+
+        // var arr =[1,101];
+        // var end=arr.every(function(value,index){
+        //     return value<100;
+        // });
+        // console.log(end);
+
+
+        // var arr=[1,2,3,4,5];
+        // console.log(arr.reverse());
+        // console.log(arr);
+        //数组倒序
+
+
+        // var arr=Array.of(1,2);
+        // console.log(arr);//将数值转化为数组
+
+
+        // var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+        // arr.sort(() => Math.random() - 0.5)
+        // console.log(arr);
+        //将数组随机打乱
+
+
+
+
+
+    </script>
+</body>
+
+</html>
